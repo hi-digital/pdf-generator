@@ -45,7 +45,7 @@ To install the plugin, follow these instructions.
    composer require hidigital/hi-pdf-generator
    ```
 
-2. In the Control Panel, go to Settings → Plugins and click the “Install” button for HI PDF Generator.
+2. In the Control Panel, go to Settings → Plugins and click the “Install” button for HI PDF Generator. Or type in the console command.
 
 ## HI PDF Generator Overview
 
