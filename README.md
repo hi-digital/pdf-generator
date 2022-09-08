@@ -46,6 +46,9 @@ To install the plugin, follow these instructions.
    ```
 
 2. In the Control Panel, go to Settings → Plugins and click the “Install” button for HI PDF Generator. Or type in the console command.
+   ```bash
+   php craft plugin/enable hi-pdf-generator
+   ```
 
 ## HI PDF Generator Overview
 

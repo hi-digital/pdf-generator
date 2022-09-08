@@ -14,7 +14,7 @@
     "support": {
         "issues": "https://github.com/hi-digital/pdf-generator/issues?state=open",
         "source": "https://github.com/hi-digital/pdf-generator",
-        "docs": "https://github.com/hi-digital/pdf-generator/repo/blob/master/README.md"
+        "docs": "https://github.com/hi-digital/pdf-generator/blob/main/README.md"
     },
     "documentationUrl": "https://github.com/hi-digital/pdf-generator",
     "license": "MIT",
