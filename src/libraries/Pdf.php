@@ -37,11 +37,11 @@ class Pdf
 
         // Check settings and throw exception if not set
         if (!isset($settings['assetFolder']) || $settings['assetFolder'] === '') {
-            throw new Exception('No default PDF save location provided in the control panel settings');
+            throw new Exception('HI PDF Plugin - No default PDF save location provided in the control panel settings');
         }
 
         if (!isset($configuration['template'])) {
-            throw new Exception('No template path provided');
+            throw new Exception('HI PDF Plugin - No template path provided');
         }
 
 
@@ -67,7 +67,7 @@ class Pdf
             return $this->file($template, $filename, $configuration, $settings);
         }
 
-        throw new Exception('Invalid or no destination provided');
+        throw new Exception('HI PDF Plugin - Invalid or no destination provided');
     }
 
     /**
