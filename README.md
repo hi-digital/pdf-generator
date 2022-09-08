@@ -34,7 +34,7 @@ To install the plugin, follow these instructions.
    composer config -g http-basic.packages.typeset.sh "{PUBLIC_ID}" "{TOKEN}"
    ```
 
-2. Create a new github access token or use a existing to access the private package. To manage your github access tokens
+2. Create a new GitHub access token or use an existing to access the private package. To manage your github access tokens
    go
    to [https://github.com/settings/tokens](https://github.com/settings/tokens). Or skip
    this step and follow the bash instructions on step 3.
@@ -45,7 +45,7 @@ To install the plugin, follow these instructions.
    composer require hidigital/hi-pdf-generator
    ```
 
-2. In the Control Panel, go to Settings → Plugins and click the “Install” button for HI PDF Generator. Or type in the console command.
+4. In the Control Panel, go to Settings → Plugins and click the “Install” button for HI PDF Generator. Or type in the console command.
    ```bash
    php craft plugin/enable hi-pdf-generator
    ```
