@@ -1,20 +1,21 @@
 {
-    "name": "hi_digital/hi-pdf-generator",
-    "description": "Generates PDF lul",
+    "name": "hidigital/hi-pdf-generator",
+    "description": "Generates PDFs from templates with the typeset.sh library",
     "type": "craft-plugin",
     "version": "0.0.1",
     "keywords": [
         "craft",
         "cms",
-        "craftcms",
-        "craft-plugin",
-        "hi pdf generator"
+        "pdf",
+        "pdf generator",
+        "hi schweiz pdf generator",
+        "hi schweiz"
     ],
     "license": "MIT",
     "authors": [
         {
-            "name": "HI Digital",
-            "homepage": "https://bitbucket.org/hi-schweiz/"
+            "name": "HI Schweiz",
+            "homepage": "https://hi-schweiz.ch"
         }
     ],
     "require": {
@@ -30,7 +31,7 @@
         "name": "HI PDF Generator",
         "handle": "hi-pdf-generator",
         "developer": "HI Digital",
-        "developerUrl": "https://bitbucket.org/hi-schweiz/",
+        "developerUrl": "https://github.com/hi-digital/pdf-generator",
         "class": "hi_digital\\hipdfgenerator\\HiPdfGenerator"
     },
     "repositories": {
