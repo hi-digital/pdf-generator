@@ -2,8 +2,6 @@
 
 This plugin allows you to generate PDFs from your Craft CMS 3.x templates.
 
-![Screenshot](resources/img/plugin-logo.png)
-
 ## Requirements
 
 This plugin requires Craft CMS 3.0.0-beta.23 or later, the typeset.sh phar file and the private typeset.sh composer package. 
@@ -60,4 +58,4 @@ Some things to do, and ideas for potential features:
 
 * Release it
 
-Brought to you by [HI Digital](https://bitbucket.org/hi-schweiz/)
+Brought to you by [HI Schweiz](https://github.com/hi-digital/)
