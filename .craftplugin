@@ -1,1 +1,27 @@
-{"pluginName":"HI PDF Generator","pluginDescription":"Generates PDFs from templates with the typeset.sh library","pluginVersion":"0.0.1","pluginAuthorName":"HI Digital","pluginVendorName":"hi_digital","pluginAuthorUrl":"https://bitbucket.org/hi-schweiz/","pluginAuthorGithub":"","codeComments":"","pluginComponents":["settings","variables"],"consolecommandName":"","controllerName":"","cpsectionName":"","elementName":"","fieldName":"","modelName":"Settings","purchasableName":"","recordName":"","serviceName":"","taskName":"","utilityName":"","widgetName":"","apiVersion":"api_version_3_0"}
+{
+  "pluginName": "HI PDF Generator",
+  "pluginDescription": "Generates PDFs from templates with the typeset.sh library",
+  "pluginVersion": "0.0.1",
+  "pluginAuthorName": "HI Digital",
+  "pluginVendorName": "hidigital",
+  "pluginAuthorUrl": "https://hi-schweiz.ch",
+  "pluginAuthorGithub": "https://github.com/hi-digital/pdf-generator",
+  "codeComments": "",
+  "pluginComponents": [
+    "settings",
+    "variables"
+  ],
+  "consolecommandName": "",
+  "controllerName": "",
+  "cpsectionName": "",
+  "elementName": "",
+  "fieldName": "",
+  "modelName": "Settings",
+  "purchasableName": "",
+  "recordName": "",
+  "serviceName": "",
+  "taskName": "",
+  "utilityName": "",
+  "widgetName": "",
+  "apiVersion": "api_version_3_0"
+}
