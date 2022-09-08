@@ -1,0 +1,42 @@
+{
+    "name": "hi_digital/hi-pdf-generator",
+    "description": "Generates PDF lul",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "hi pdf generator"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HI Digital",
+            "homepage": "https://bitbucket.org/hi-schweiz/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0",
+        "typesetsh/typesetsh": "^0.21.15"
+    },
+    "autoload": {
+        "psr-4": {
+          "hi_digital\\hipdfgenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "HI PDF Generator",
+        "handle": "hi-pdf-generator",
+        "developer": "HI Digital",
+        "developerUrl": "https://bitbucket.org/hi-schweiz/",
+        "class": "hi_digital\\hipdfgenerator\\HiPdfGenerator"
+    },
+    "repositories": {
+        "typesetsh": {
+            "type": "composer",
+            "url": "https://packages.typeset.sh"
+        }
+    }
+}

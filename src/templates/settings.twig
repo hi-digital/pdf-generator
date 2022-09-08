@@ -1,0 +1,41 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * HI PDF Generator plugin for Craft CMS 3.x
+ *
+ * HI PDF Generator Settings.twig
+ *
+ * @author    HI Digital
+ * @copyright Copyright (c) 2022 HI Digital
+ * @link      https://bitbucket.org/hi-schweiz/
+ * @package   HiPdfGenerator
+ * @since     0.0.1
+ */
+#}
+{% import "_includes/forms" as forms %}
+
+{% do view.registerAssetBundle("hi_digital\\hipdfgenerator\\assetbundles\\hipdfgenerator\\HiPdfGeneratorAsset") %}
+
+{% set options = [] %}
+
+{% set options = craft.app.volumes.allVolumes()|map(vol => {
+    label: vol.name,
+    value: vol.id
+}) %}
+
+{{ forms.selectField({
+    label: 'Default PDF save location',
+    instructions: 'Select the default pdf save location.',
+    id: 'assetFolder',
+    name: 'assetFolder',
+    options,
+    value: settings.assetFolder,
+}) }}
+
+{{ forms.textField({
+    label: 'Subfolder in PDF save location',
+    instructions: 'Select the subfolder to store the pdfs in or leave it blank. The path can be separated by a slash.',
+    id: 'subFolder',
+    name: 'subFolder',
+    value: settings.subFolder,
+}) }}
