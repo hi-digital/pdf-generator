@@ -34,18 +34,13 @@ To install the plugin, follow these instructions.
    composer config -g http-basic.packages.typeset.sh "{PUBLIC_ID}" "{TOKEN}"
    ```
 
-2. Create a new GitHub access token or use an existing to access the private package. To manage your github access tokens
-   go
-   to [https://github.com/settings/tokens](https://github.com/settings/tokens). Or skip
-   this step and follow the bash instructions on step 3.
-
-3. Tell Composer to load the plugin
+2. Tell Composer to load the plugin
 
    ```bash
    composer require hidigital/hi-pdf-generator
    ```
 
-4. In the Control Panel, go to Settings → Plugins and click the “Install” button for HI PDF Generator. Or type in the console command.
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for HI PDF Generator. Or type in the console command.
    ```bash
    php craft plugin/enable hi-pdf-generator
    ```
@@ -89,7 +84,7 @@ will not be displayed correctly and a pdf error will occur.
 The file path gets returned as string.
 
 ```bash
- {% set fileUrl = craft.hiPdf.generatePdf({
+ {% set file = craft.hiPdf.generatePdf({
      template: '_templates/printmaker/pdfTemplate',
      filename: entry.title,
      title: entry.title ,
