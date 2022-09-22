@@ -7,7 +7,26 @@ This plugin allows you to generate PDFs from your Craft CMS 3.x templates.
 This plugin requires Craft CMS 3.0.0-beta.23 or later, the typeset.sh phar file and the private typeset.sh composer
 package. Create a new ```PUBLIC_ID``` and ```TOKEN``` for each project on [typeset.sh](https://typeset.sh/en/home).
 
-## Update composer.json
+### GitHub Access Token
+
+To use fetch the GitHub repo, you need to create a [personal access token](https://github.com/settings/tokens) on the hi
+digital GitHub account.
+GitHub ask for the generated token during the installation. If you run composer update on the staging or live server,
+you need a token for these servers too.
+
+#### Access Token Config
+
+- Add a note explaining which project the token is used for. You can use the token locally, in staging or on the live
+  server.
+- Set the expiry date to a reasonable value.
+- Select the following scopes:
+    - repo
+- Copy the token or store it.
+
+Each time the project is updated, a new token must be created. However, you can also simply use a token that never
+expires.
+
+### Update composer.json
 
 Add the following to your composer.json file:
 
@@ -40,7 +59,8 @@ To install the plugin, follow these instructions.
    composer require hidigital/hi-pdf-generator
    ```
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for HI PDF Generator. Or type in the console command.
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for HI PDF Generator. Or type in the
+   console command.
    ```bash
    php craft plugin/enable hi-pdf-generator
    ```
