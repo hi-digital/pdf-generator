@@ -42,6 +42,7 @@ Add the following to your composer.json file:
     }
   ]
 ```
+#### When Craft CMS 3 is used, change the repo url to use the v1 branch of the plugin!
 
 ## Installation
 
