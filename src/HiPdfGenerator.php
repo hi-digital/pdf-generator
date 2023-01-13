@@ -1,11 +1,11 @@
 <?php
 /**
- * HI PDF Generator plugin for Craft CMS 3.x
+ * HI PDF Generator plugin for Craft CMS 4.x
  *
  * Generates PDFs from templates with the typeset.sh library
  *
  * @link      https://bitbucket.org/hi-schweiz/
- * @copyright Copyright (c) 2022 HI Digital
+ * @copyright Copyright (c) 2023 HI Digital
  */
 
 namespace hi_digital\hipdfgenerator;
@@ -46,14 +46,19 @@ class HiPdfGenerator extends Plugin
     // =========================================================================
 
     /**
-     * @var bool
+     * @var string
      */
-    public $hasCpSettings = true;
+    public string $schemaVersion = '2.0.0';
 
     /**
      * @var bool
      */
-    public $hasCpSection = false;
+    public bool $hasCpSettings = true;
+
+    /**
+     * @var bool
+     */
+    public bool $hasCpSection = false;
 
     // Public Methods
     // =========================================================================
@@ -102,7 +107,7 @@ class HiPdfGenerator extends Plugin
     /**
      * @inheritdoc
      */
-    protected function createSettingsModel()
+    protected function createSettingsModel(): ?\craft\base\Model
     {
         return new Settings();
     }

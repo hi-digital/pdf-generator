@@ -46,5 +46,10 @@
       "type": "composer",
       "url": "https://packages.typeset.sh"
     }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require-dev": {
+    "craftcms/rector": "dev-main"
   }
 }

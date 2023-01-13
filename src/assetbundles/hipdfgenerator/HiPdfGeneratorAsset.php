@@ -1,11 +1,11 @@
 <?php
 /**
- * HI PDF Generator plugin for Craft CMS 3.x
+ * HI PDF Generator plugin for Craft CMS 4.x
  *
  * Generates PDFs from templates with the typeset.sh library
  *
  * @link      https://bitbucket.org/hi-schweiz/
- * @copyright Copyright (c) 2022 HI Digital
+ * @copyright Copyright (c) 2023 HI Digital
  */
 
 namespace hi_digital\hipdfgenerator\assetbundles\hipdfgenerator;
