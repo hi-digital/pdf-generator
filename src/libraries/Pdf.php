@@ -133,7 +133,7 @@ class Pdf
         $subFolder = $settings['subFolder'];
 
         $volume = Craft::$app->getVolumes()->getVolumeById($assetFolder);
-        $volumePath = $volume->path;
+        $volumePath = $volume->getFs()->getRootUrl();
 
         if ($subFolder) {
             // Check if subfolder exists
@@ -149,7 +149,9 @@ class Pdf
         $pdf->toFile($volumePath . '/' . $path);
 
         // Index asset to show up in the control panel
-        Craft::$app->getAssetIndexer()->indexFile($volume, $path);
+        $sessionId = Craft::$app->getAssetIndexer()->createIndexingSession([$volume])->id;
+
+        Craft::$app->getAssetIndexer()->indexFile($volume, $path, $sessionId);
 
         // Return new asset url
         return Craft::$app->getResponse()->data = $volumePath . '/' . $path;

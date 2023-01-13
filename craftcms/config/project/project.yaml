@@ -1,18 +1,32 @@
-dateModified: 1673610805
+dateModified: 1673612671
 email:
   fromEmail: wermelinger@hi-schweiz.ch
   fromName: 'HI PDF Generator'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  documents:
+    hasUrls: true
+    name: Dokumente
+    settings:
+      path: media/documents
+    type: craft\fs\Local
+    url: media/documents
 meta:
   __names__:
     2fba2f4b-4402-4c23-9b34-5912422b7ac2: 'HI PDF Generator' # HI PDF Generator
+    1313a584-b444-49e6-81d9-9efa5ab38e80: Dokumente # Dokumente
+    c3ab886d-aa6a-45ca-9edc-8d8d10efcb29: Home # Home
     d04120a1-aae1-417d-b4a1-d65371c3fe3e: 'HI PDF Generator' # HI PDF Generator
+    dad5a03d-2903-4004-90ad-63a32c5a5c08: Home # Home
     fa6fd6cb-e119-4a78-8d27-b23aa55de950: Common # Common
 plugins:
   hi-pdf-generator:
     edition: standard
     enabled: true
     schemaVersion: 2.0.0
+    settings:
+      assetFolder: '1'
+      subFolder: pdfs
 system:
   edition: solo
   live: true

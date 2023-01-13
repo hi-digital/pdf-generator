@@ -9,6 +9,17 @@
 
 </head>
 <body>
-<h1>PDF TEMPLATE</h1>
+
+<h1>HI PDF PLUGIN TEST PAGE</h1>
+
+{{ craft.hiPdf.generatePdf({
+    template: 'pdf',
+    filename: 'Projektauswahl' ~ ' - ' ~ siteName,
+    title: 'Projektauswahl',
+    destination: 'inline',
+    variables: {
+    }
+})|raw }}
+
 </body>
 </html>

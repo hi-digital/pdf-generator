@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  d04120a1-aae1-417d-b4a1-d65371c3fe3e: # HI PDF Generator
+    enabledByDefault: true
+    hasUrls: true
+    template: home
+    uriFormat: __home__
+type: single

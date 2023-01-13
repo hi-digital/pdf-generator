@@ -9,6 +9,20 @@
 
 </head>
 <body>
-<h1>PDF TEMPLATE</h1>
+
+<h1>HI PDF PLUGIN TEST PAGE</h1>
+
+{% set file = craft.hiPdf.generatePdf({
+    template: 'pdf',
+    filename: entry.title,
+    title: entry.title ,
+    destination: 'file',
+    variables: {
+        entry,
+    },
+}) %}
+
+<a href="{{ file }}" download>Download</a>
+
 </body>
 </html>
