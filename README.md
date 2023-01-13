@@ -1,10 +1,10 @@
-# HI PDF Generator plugin for Craft CMS 3.x
+# HI PDF Generator plugin for Craft CMS 4.x
 
 This plugin allows you to generate PDFs from your Craft CMS 3.x templates.
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later, the typeset.sh phar file and the private typeset.sh composer
+This plugin requires Craft CMS 4.0.0 or later, the typeset.sh phar file and the private typeset.sh composer
 package. Create a new ```PUBLIC_ID``` and ```TOKEN``` for each project on [typeset.sh](https://typeset.sh/en/home).
 
 ### GitHub Access Token
