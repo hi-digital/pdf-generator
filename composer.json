@@ -2,7 +2,7 @@
   "name": "hidigital/hi-pdf-generator",
   "description": "Generates PDFs from templates with the typeset.sh library",
   "type": "craft-plugin",
-  "version": "2.0.1",
+  "version": "2.1.1",
   "keywords": [
     "craft",
     "cms",
