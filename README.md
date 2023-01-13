@@ -139,3 +139,10 @@ can.
 * Add some more cool stuff to the plugin
 
 Brought to you by [HI Schweiz](https://github.com/hi-digital/)
+
+
+# Dev
+```bash
+ddev config --project-type=craftcms --docroot=_test/craft --create-docroot
+```
+

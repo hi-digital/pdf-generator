@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: de-CH
+name: 'HI PDF Generator'
+primary: true
+siteGroup: 2fba2f4b-4402-4c23-9b34-5912422b7ac2 # HI PDF Generator
+sortOrder: 1

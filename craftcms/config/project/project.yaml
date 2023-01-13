@@ -1,0 +1,27 @@
+dateModified: 1673610805
+email:
+  fromEmail: wermelinger@hi-schweiz.ch
+  fromName: 'HI PDF Generator'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    2fba2f4b-4402-4c23-9b34-5912422b7ac2: 'HI PDF Generator' # HI PDF Generator
+    d04120a1-aae1-417d-b4a1-d65371c3fe3e: 'HI PDF Generator' # HI PDF Generator
+    fa6fd6cb-e119-4a78-8d27-b23aa55de950: Common # Common
+plugins:
+  hi-pdf-generator:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+system:
+  edition: solo
+  live: true
+  name: 'HI PDF Generator'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
