@@ -31,6 +31,7 @@ expires.
 Add the following to your composer.json file:
 
 ```
+ "minimum-stability": "dev",
  "repositories": [
     {
       "type": "vcs",
@@ -42,7 +43,7 @@ Add the following to your composer.json file:
     }
   ]
 ```
-#### When Craft CMS 3 is used, change the repo url to use the v1 branch of the plugin!
+
 
 ## Installation
 
@@ -54,8 +55,7 @@ To install the plugin, follow these instructions.
    composer config -g http-basic.packages.typeset.sh "{PUBLIC_ID}" "{TOKEN}"
    ```
 
-2. Tell Composer to load the plugin
-
+2. Tell Composer to load the plugin. When Craft CMS 3 is used, change the require command to use v1.x-dev of the plugin!
    ```bash
    composer require hidigital/hi-pdf-generator
    ```
