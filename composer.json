@@ -1,49 +1,49 @@
 {
-    "name": "hidigital/hi-pdf-generator",
-    "description": "Generates PDFs from templates with the typeset.sh library",
-    "type": "craft-plugin",
-    "version": "0.0.1",
-    "keywords": [
-        "craft",
-        "cms",
-        "pdf",
-        "pdf generator",
-        "hi schweiz pdf generator",
-        "hi schweiz"
-    ],
-    "support": {
-        "issues": "https://github.com/hi-digital/pdf-generator/issues?state=open",
-        "source": "https://github.com/hi-digital/pdf-generator",
-        "docs": "https://github.com/hi-digital/pdf-generator/blob/main/README.md"
-    },
-    "documentationUrl": "https://github.com/hi-digital/pdf-generator",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "HI Schweiz",
-            "homepage": "https://hi-schweiz.ch"
-        }
-    ],
-    "require": {
-        "craftcms/cms": "^4.0.0",
-        "typesetsh/typesetsh": "^0.23.0"
-    },
-    "autoload": {
-        "psr-4": {
-          "hi_digital\\hipdfgenerator\\": "src/"
-        }
-    },
-    "extra": {
-        "name": "HI PDF Generator",
-        "handle": "hi-pdf-generator",
-        "developer": "HI Digital",
-        "developerUrl": "https://github.com/hi-digital/pdf-generator",
-        "class": "hi_digital\\hipdfgenerator\\HiPdfGenerator"
-    },
-    "repositories": {
-        "typesetsh": {
-            "type": "composer",
-            "url": "https://packages.typeset.sh"
-        }
+  "name": "hidigital/hi-pdf-generator",
+  "description": "Generates PDFs from templates with the typeset.sh library",
+  "type": "craft-plugin",
+  "version": "2.0.0",
+  "keywords": [
+    "craft",
+    "cms",
+    "pdf",
+    "pdf generator",
+    "hi schweiz pdf generator",
+    "hi schweiz"
+  ],
+  "support": {
+    "issues": "https://github.com/hi-digital/pdf-generator/issues?state=open",
+    "source": "https://github.com/hi-digital/pdf-generator",
+    "docs": "https://github.com/hi-digital/pdf-generator/blob/main/README.md"
+  },
+  "documentationUrl": "https://github.com/hi-digital/pdf-generator",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "HI Schweiz",
+      "homepage": "https://hi-schweiz.ch"
     }
+  ],
+  "require": {
+    "craftcms/cms": "^4.0.0",
+    "typesetsh/typesetsh": "^0.23.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "hi_digital\\hipdfgenerator\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "HI PDF Generator",
+    "handle": "hi-pdf-generator",
+    "developer": "HI Digital",
+    "developerUrl": "https://github.com/hi-digital/pdf-generator",
+    "class": "hi_digital\\hipdfgenerator\\HiPdfGenerator"
+  },
+  "repositories": {
+    "typesetsh": {
+      "type": "composer",
+      "url": "https://packages.typeset.sh"
+    }
+  }
 }
